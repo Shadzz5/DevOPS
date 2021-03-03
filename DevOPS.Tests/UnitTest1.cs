@@ -17,6 +17,7 @@ namespace DevOPS.Tests
             Calculatrice calc = new Calculatrice();
             int result = calc.add(a, b);
 
+
             Assert.AreEqual(6,result);
 
         }
