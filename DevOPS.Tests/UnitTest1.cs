@@ -19,17 +19,18 @@ namespace DevOPS.Tests
 
             Assert.AreEqual(6, result);
         }
-
+        [Test]
         public void TestSu()
         {
-            int a = 2;
-            int b = 8;
+            int a = 8;
+            int b = 2;
             Calculatrice calc = new Calculatrice();
             int result = calc.sub(a, b);
 
             Assert.AreEqual(6, result);
 
         }
+        [Test]
         public void TestMul()
         {
             int a = 2;
@@ -37,17 +38,18 @@ namespace DevOPS.Tests
             Calculatrice calc = new Calculatrice();
             int result = calc.mul(a, b);
 
-            Assert.AreEqual(6, result);
+            Assert.AreEqual(14, result);
 
         }
+        [Test]
         public void TestDiv()
         {
-            int a = 7;
+            int a = 8;
             int b = 4;
             Calculatrice calc = new Calculatrice();
             int result = calc.div(a, b);
 
-            Assert.AreEqual(6, result);
+            Assert.AreEqual(2, result);
 
         }
     }
