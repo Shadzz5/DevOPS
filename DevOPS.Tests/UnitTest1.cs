@@ -52,5 +52,16 @@ namespace DevOPS.Tests
             Assert.AreEqual(2, result);
 
         }
+        [Test]
+        public void TestMod()
+        {
+            int a = 8;
+            int b = 2;
+            Calculatrice calc = new Calculatrice();
+            int result = calc.mod(a, b);
+
+            Assert.AreEqual(0, result);
+
+        }
     }
 }

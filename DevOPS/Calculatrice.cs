@@ -31,5 +31,9 @@ namespace DevOPS
             }
             return result;
         }
+        public int mod(int a, int b)
+        {
+            return a % b;
+        }
     }
 }
